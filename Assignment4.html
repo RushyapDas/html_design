@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body bgcolor="F6F0FC">
+    <h1><b>Student Registration:</b></h1>
+    <div></div>
+    <form action="#" method="post">
+        <div>
+           Firstname: <input type="text" name="name" placeholder="e.g. Sachin">
+        </div>
+        <br>
+        <div>
+           Middlename: <input type="text" name="name" placeholder="e.g. Tendulkar">
+       </div>
+       <br>
+        <div>
+           Lastname: <input type="text" name="name" placeholder="e.g. Ramesh">
+        </div>
+        <br>
+        <div>
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+            <option value="select course">Select Course</option>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="btech">B.TECH</option>
+            <option value="mba">MBA</option>
+            <option value="mca">MCA</option>
+            <option value="mtech">M.TECH</option>
+        </select>
+        </div>
+        <br>
+        <div>
+           Gender: <br><input type="radio" name="gender" value="male">Male <br> <input type="radio" name="gender" value="female">Female <br> <input type="radio" name="gender" value="Others">Others
+        </div>
+        <br>
+        <div>
+        Address:<br>
+        <textarea name="Address" id="" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="phone">Phone: </label>
+        <input type="tel" maxlength="2" placeholder="+91"> <input type="tel" id="phone" placeholder="74 39xx xxxx" name="phone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}">
+         <br>
+         <br>
+         <label for="email">Email: </label>
+         <input type="email" id="email" name="email">
+         <br>
+         <br>
+         <label for="password">Pssword: </label>
+         <input type="password" minlength="8" maxlength="20" id="password" name="password">
+         <br>
+         <br>
+         <label for="password">Re-type Pssword: </label>
+         <input type="password" minlength="8" maxlength="20" id="password" name="password">
+         <br>
+         <br>
+         <input type="submit" id="submit" name="submit">
+    </form>
+</body>
+</html>
